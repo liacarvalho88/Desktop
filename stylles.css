@@ -1,0 +1,49 @@
+body {
+  background-image: url(./robótico.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  width: 400px;
+  border: 1px solid black;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+
+.form .btn {
+  background-color: aquamarine;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.form .btn:hover {
+  background-color: transparent;
+  border: 1px solid black;
+}
